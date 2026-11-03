@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="12" viewBox="0 0 600 12">
+  <!-- Franja de tejido redibujada a partir del logo AMMI; se repite en horizontal -->
+  <defs>
+    <pattern id="amarillo" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#E9C531"/><rect width="3" height="3" fill="#9DBB3A"/></pattern>
+    <pattern id="morado" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#6E3FA0"/><rect x="3" y="3" width="3" height="3" fill="#A27BD6"/></pattern>
+    <pattern id="fucsia" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#C2216B"/><path d="M0 4l3 3 3-3 3 3 3-3M0 8l3 3 3-3 3 3 3-3" fill="none" stroke="#F48BB8" stroke-width="1.2"/></pattern>
+    <pattern id="verde" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#2E8B57"/><rect x="3" width="3" height="3" fill="#7AC36A"/></pattern>
+    <pattern id="azul" width="8" height="6" patternUnits="userSpaceOnUse"><rect width="8" height="6" fill="#1D3E8C"/><rect x="2" y="1" width="4" height="4" fill="#7FB8E6"/></pattern>
+    <pattern id="ocre" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#E2B22B"/><rect x="3" y="3" width="3" height="3" fill="#C9372C"/></pattern>
+  </defs>
+  <rect width="70" height="12" fill="url(#amarillo)"/>
+  <rect x="70" width="50" height="12" fill="url(#morado)"/>
+  <rect x="120" width="150" height="12" fill="url(#fucsia)"/>
+  <rect x="270" width="60" height="12" fill="url(#verde)"/>
+  <rect x="330" width="150" height="12" fill="url(#azul)"/>
+  <rect x="480" width="120" height="12" fill="url(#ocre)"/>
+</svg>
