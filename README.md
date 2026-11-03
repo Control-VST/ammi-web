@@ -9,7 +9,7 @@ Sitio de la **Alianza de Mujeres y Mujeres Indígenas por el Acceso a la Justici
 ## Empezar a trabajar
 
 ```bash
-git clone https://github.com/TheCesar21/ammi-web.git
+git clone https://github.com/Control-VST/ammi-web.git
 cd ammi-web
 npm install
 npm run dev
