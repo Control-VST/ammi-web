@@ -54,14 +54,14 @@ a { color: inherit; }
   min-height: 48px; padding: 0 20px; border: 1.5px solid var(--corinto-700); border-radius: 999px; cursor: pointer;
   background: var(--corinto-700); color: var(--blanco);
   font: 600 16px/1 var(--texto); text-decoration: none; white-space: nowrap;
-  transition: background-color .2s ease, border-color .2s ease, color .2s ease, box-shadow .2s ease, transform .2s cubic-bezier(.2, .7, .3, 1);
+  transition: background-color .2s ease, border-color .2s ease, color .2s ease, transform .2s cubic-bezier(.2, .7, .3, 1);
 }
 /* Hover: se oscurece y sube un poco; al salir baja suave a su lugar. Al hacer clic se hunde. */
-.boton:hover { background: var(--corinto-800); border-color: var(--corinto-800); transform: translateY(-2px); box-shadow: 0 6px 16px rgba(63, 16, 32, .22); }
-.boton:active { transform: translateY(0) scale(.98); box-shadow: none; transition-duration: .08s; }
+.boton:hover { background: var(--corinto-800); border-color: var(--corinto-800); transform: translateY(-2px); }
+.boton:active { transform: translateY(0) scale(.98); transition-duration: .08s; }
 /* Secundario (borde): se tiñe de corinto oscuro */
 .boton--borde { background: transparent; color: var(--corinto-700); }
-.boton--borde:hover { background: rgba(94, 21, 48, .1); border-color: var(--corinto-800); color: var(--corinto-800); box-shadow: 0 6px 16px rgba(63, 16, 32, .12); }
+.boton--borde:hover { background: rgba(94, 21, 48, .1); border-color: var(--corinto-800); color: var(--corinto-800); }
 .boton--blanco { background: var(--blanco); border-color: var(--blanco); color: var(--corinto-700); }
 .boton--blanco:hover { background: var(--crema-100); border-color: var(--crema-100); color: var(--corinto-800); }
 @media (prefers-reduced-motion: reduce) {
